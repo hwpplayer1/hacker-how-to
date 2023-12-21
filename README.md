@@ -52,6 +52,14 @@ Please read this :
 
 **happy hacking!...**
 
+# Where we store this documentation
+
+* https://codeberg.org/hwpplayer1/hacker-how-to
+* https://git.disroot.org/hwpplayer1/hacker-how-to
+* https://git.vern.cc/hwpplayer1/hacker-how-to
+* https://git.sr.ht/~mertgor/hacker-how-to
+* https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to
+* https://github.com/hwpplayer1/hacker-how-to
 
 # License
 
