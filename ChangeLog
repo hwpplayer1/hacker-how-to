@@ -1,0 +1,12 @@
+2024-02-01  Mert Gör  <mertgor@masscollabs.xyz>
+
+	* hacker.tr.md: The Turkish version of how to become a committer
+
+	* README.md: The English article collection for how to become a committer
+
+	* by-sa.markdown: The original License file
+
+	* .gitignore: gitignore added for Emacs outputs
+
+	* LICENSE: CC BY-SA 4.0 or any later
+
