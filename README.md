@@ -64,3 +64,7 @@ Please read this :
 # License
 
 [CC BY-SA 4.0 or any later](by-sa.markdown)
+
+# ChangeLog
+
+Please See the ChangeLog for the Log activity
