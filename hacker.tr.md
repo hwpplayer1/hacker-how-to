@@ -57,7 +57,7 @@ Lütfen aşağıdaki bağlantıları okuyunuz :
 
 * SSH Key'i oluşturduk ve public SSH Key'imizi GitHub hesabımıza ekledik.
 
-* Bu örnekte GPG Anahtarını oluşturduk, gizli anahtarı dışa aktardık, iptal sertifikasını dışa aktardık, genel anahtarımızı bir sunucuya yayınladık ve ardından secret.key ve revoke.asc'mizi harici bir diske taşıdık. Daha sonra GPG anahtarımızı GitHub hesabına ekledik.
+* Bu örnekte GPG Anahtarını oluşturduk, gizli anahtarı dışa aktardık, iptal sertifikasını dışa aktardık, genel anahtarımızı bir sunucuya gönderdik ve ardından secret.key ve revoke.asc'mizi harici bir diske taşıdık. Daha sonra GPG anahtarımızı GitHub hesabına ekledik.
 
 * Yazdığımız içeriği imzalamak için git hesabımızı yapılandırdık.
 
