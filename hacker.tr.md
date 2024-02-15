@@ -1,5 +1,7 @@
 # Bir git tabanlı projede yazma iznine sahip olmak isteyen Hackerlar(Yazılımcılar) için Kılavuz
 
+![Free Software](img/freesoftware1024x768.png)
+
 Bu makale, içerik üretme ile ilgili her türlü forge'ye(yazılım depo platformuna) içerikleri göndermek için her türlü git odaklı iş akışına sahip bir yazılımcı olmanın yolunu anlatır.
 
 # SSH Anahtarlarını Ayarlama

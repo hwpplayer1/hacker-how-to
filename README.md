@@ -1,4 +1,6 @@
-# A Guide for Hackers who wants to become a committer
+# A Guide for Hackers who wants to become a committerl
+
+![Free Software](img/freesoftware1024x768.png)
 
 This repository includes the path to become a committer with any kind of git oriented workflow to push commits to any kind of forge.
 
