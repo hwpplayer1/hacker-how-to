@@ -2,7 +2,7 @@
 
 First we create remote repositories on the related forge web user interfaces.
 
-For this repository it is :
+For this repository they are :
 
 * [GitHub](https://github.com/hwpplayer1/hacker-how-to)
 * [GitLab](https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to)
@@ -19,9 +19,9 @@ Here it is step by step
 
 ```git clone git@github.com:hwpplayer1/hacker-how-to.git```
 
-Then ```cd hacker-howo-to```
+Then ```cd hacker-how-to```
 
-After thıs change the ```origin``` with ```github``` and add ```git remote add all git@github.com:hwpplayer1/hacker-how-to.git```
+After this change the ```origin``` with ```github``` and add ```git remote add all git@github.com:hwpplayer1/hacker-how-to.git```
 
 This will make the GitHub all address to lead all repositories
 
