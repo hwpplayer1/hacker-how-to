@@ -1,4 +1,4 @@
-# Aynı anda gönderilecek birden fazla Git deposu
+# Birden fazla forge(kod barındırma ortamına) içerik göndermek
 
 Öncelikle ilgili forge web kullanıcı arayüzlerinde uzaktaki adres arayüzünden depolar oluşturuyoruz.
 
