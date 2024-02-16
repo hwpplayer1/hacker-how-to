@@ -19,7 +19,7 @@ Adım adım anlatımı aşağıdaki gibidir :
 
 ```git clone git@github.com:hwpplayer1/hacker-how-to.git```
 
-Sonra ```cd hacker-howo-to```
+Sonra ```cd hacker-how-to```
 
 Ve bundan sonra ```origin``` adres ismini ```github``` ile değiştirin ve ```git remote add all git@github.com:hwpplayer1/hacker-how-to.git``` adresini all olarak ekleyin.
 
