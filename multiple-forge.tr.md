@@ -10,6 +10,7 @@ Bunun için aşağıdaki gibi adreslere erişiyoruz :
 * [vern.cc](https://git.vern.cc/hwpplayer1/hacker-how-to)
 * [Disroot](https://git.disroot.org/hwpplayer1/hacker-how-to)
 * [Codeberg](https://codeberg.org/hwpplayer1/hacker-how-to)
+* [Truva Linux](https://git.truvalinux.org.tr/hwpplayer1/hacker-how-to)
 
 ve yerel kod ortamımız ( forge ) benim için bu forgejo'dur.
 
@@ -33,7 +34,9 @@ vern.cc için ```git remote add vern.cc ssh://git@vern.cc:1813/hwpplayer1/hacker
 
 disroot için ```git remote add disroot git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
-ve Codeberg için ```git remote add codeberg git@codeberg.org:hwpplayer1/hacker-how-to.git```4
+Codeberg için ```git remote add codeberg git@codeberg.org:hwpplayer1/hacker-how-to.git```
+
+ve Truva Linux için ```https://git.truvalinux.org.tr/hwpplayer1/hacker-how-to.git```
 
 Bu aşamadan sonra her adres için bu komutu çalıştıracağız ```git remote set-url --add --push all``` 
 
@@ -51,6 +54,8 @@ Bunlar :
 ```git remote set-url --add --push all git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
 ```git remote set-url --add --push all git@codeberg.org:hwpplayer1/hacker-how-to.git```
+
+```git remote set-url --add --push all https://git.truvalinux.org.tr/hwpplayer1/hacker-how-to.git```
 
 ve benim local forge(forgejo'm)'um için ```git remote set-url --add --push all git@127.0.0.1:hwpplayer1/hacker-how-to.git```
 
