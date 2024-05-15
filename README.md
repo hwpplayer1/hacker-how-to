@@ -62,6 +62,7 @@ Please read this :
 * https://git.sr.ht/~mertgor/hacker-how-to
 * https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to
 * https://github.com/hwpplayer1/hacker-how-to
+* https://git.truvalinux.org.tr/hwpplayer1/hacker-how-to
 
 # License
 
