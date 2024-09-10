@@ -41,7 +41,7 @@ gpg --output revoke.asc --gen-revoke 3AA5C34371567BD2
 gpg --armor --export 3AA5C34371567BD2 > 3AA5C34371567BD2.asc
 ```
 
-* PGP Global Directory'de yayınlayın, anahtarı içe aktarın, güvenin ve Thunderbird E-posta İstemcisi veya başka bir istemciyle imzalayın
+* [PGP Global Directory'de](https://keyserver.pgp.com/vkd/GetWelcomeScreen.event)  yayınlayın, anahtarı içe aktarın, güvenin ve Thunderbird E-posta İstemcisi veya başka bir istemciyle imzalayın
 
 * Bundan sonra secret.key ve revoke.asc dosyalarınızı harici bir diske yedekleyin ve güvende tutun.
 
