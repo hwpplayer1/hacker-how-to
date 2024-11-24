@@ -1,4 +1,4 @@
-# A Guide for Hackers who wants to become a committer
+# A Guide for Hackers who want to become a committer
 
 ![Free Software](img/freesoftware1024x768.png)
 
