@@ -67,15 +67,7 @@ mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)
 
 # Bu belgeleri nerede saklıyoruz ?
 
-
-* https://codeberg.org/hwpplayer1/hacker-how-to
-* https://git.disroot.org/hwpplayer1/hacker-how-to
-* https://git.vern.cc/hwpplayer1/hacker-how-to
-* https://git.sr.ht/~mertgor/hacker-how-to
-* https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to
 * https://github.com/hwpplayer1/hacker-how-to
-* https://git.truvalinux.org.tr/hwpplayer1/hacker-how-to
-
 
 # Lisans
 
