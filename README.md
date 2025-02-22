@@ -46,6 +46,12 @@ Please read this :
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 
+# Configuring User Email and User Name for commits
+
+* https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
+
+* https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
+
 # Conclusion
 
 * We have generated SSH Key and added our public SSH Key to our GitHub account.
