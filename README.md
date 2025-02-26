@@ -64,6 +64,14 @@ Please read this :
 
 * https://github.com/hwpplayer1/hacker-how-to
 
+* https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to
+
+* https://git.sr.ht/~mertgor/hacker-how-to
+
+* https://git.disroot.org/hwpplayer1/hacker-how-to
+
+* https://codeberg.org/hwpplayer1/hacker-how-to
+
 # License
 
 [CC BY-SA 4.0 or any later](by-sa.markdown)
