@@ -55,6 +55,12 @@ Lütfen aşağıdaki bağlantıları okuyunuz :
 
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 
+# Kullanıcı E-postasını ve Kullanıcı Adını commit'ler için yapılandırma
+
+* https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
+
+* https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
+
 # Sonuç
 
 * SSH Key'i oluşturduk ve public SSH Key'imizi GitHub hesabımıza ekledik.
