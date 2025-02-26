@@ -74,6 +74,8 @@ Please read this :
 
 * https://codeberg.org/hwpplayer1/hacker-how-to
 
+* https://git.emin.software/hwpplayer1/hacker-how-to
+
 # License
 
 [CC BY-SA 4.0 or any later](by-sa.markdown)
