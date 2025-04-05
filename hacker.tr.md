@@ -73,6 +73,8 @@ mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)
 
 # Bu belgeleri nerede saklıyoruz ?
 
+* https://source.masscollabs.xyz/mertgor/hacker-how-to
+
 * https://github.com/hwpplayer1/hacker-how-to
 
 * https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to

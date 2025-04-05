@@ -62,6 +62,8 @@ Please read this :
 
 # Where we store this documentation
 
+* https://source.masscollabs.xyz/mertgor/hacker-how-to
+
 * https://github.com/hwpplayer1/hacker-how-to
 
 * https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to
