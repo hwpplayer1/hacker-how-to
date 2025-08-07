@@ -91,5 +91,5 @@ mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)
 
 # Lisans
 
-[CC BY-SA 4.0 or any later](https://github.com/hwpplayer1/hacker-how-to/blob/master/by-sa.markdown)
+[CC BY-SA 4.0 or later](https://github.com/hwpplayer1/hacker-how-to/blob/master/by-sa.markdown)
 
