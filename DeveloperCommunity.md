@@ -1,5 +1,7 @@
 # Git ve GitHub Eğitimi
 
+![Git ve GitHub](img/git_GitHub.jpeg)
+
 🚨 ÜCRETSİZ GİT & GITHUB EĞİTİMİ – SIFIRDAN VERSİYON KONTROL 🚨
 
 Developer Community olarak yazılım geliştiriciler için vazgeçilmez bir eğitim daha getiriyoruz!
