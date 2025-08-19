@@ -17,6 +17,7 @@ Git & GitHub bilmeyenler için özel hazırlanan eğitimimiz başlıyor! 🎉
 🎯 Seviye: Hiç Git/GitHub bilmeyen katılımcılar için
 
 💡 Eğitimde Neler Öğreneceksiniz?
+
 •⁠ ⁠Git nedir, ne işe yarar?
 
 •⁠ ⁠Versiyon kontrol mantığı.
