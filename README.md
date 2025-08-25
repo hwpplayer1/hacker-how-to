@@ -46,6 +46,13 @@ Please read this :
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 
+To check :
+
+```
+chmod +x git-sign-check.sh
+./git-sign-check.sh
+```
+
 # Configuring User Email and User Name for commits
 
 * https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git

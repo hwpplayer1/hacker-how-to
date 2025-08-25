@@ -55,6 +55,13 @@ Lütfen aşağıdaki bağlantıları okuyunuz :
 
 * https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 
+Kontrol için :
+
+```
+chmod +x git-sign-check.sh
+./git-sign-check.sh
+```
+
 # Kullanıcı E-postasını ve Kullanıcı Adını commit'ler için yapılandırma
 
 * https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
