@@ -53,6 +53,8 @@ chmod +x git-sign-check.sh
 ./git-sign-check.sh
 ```
 
+This is the reason why you need to sign your commits.
+
 # Configuring User Email and User Name for commits
 
 * https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
