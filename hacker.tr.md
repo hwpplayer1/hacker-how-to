@@ -88,8 +88,6 @@ mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)
 
 * https://git.sr.ht/~mertgor/hacker-how-to
 
-* https://git.vern.cc/hwpplayer1/hacker-how-to
-
 * https://git.disroot.org/hwpplayer1/hacker-how-to
 
 * https://codeberg.org/hwpplayer1/hacker-how-to

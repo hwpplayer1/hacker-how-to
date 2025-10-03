@@ -12,8 +12,6 @@ For this repository it is :
 
 * [sr.ht](https://git.sr.ht/~mertgor/hacker-how-to)
 
-* [vern.cc](https://git.vern.cc/hwpplayer1/hacker-how-to)
-
 * [Disroot](https://git.disroot.org/hwpplayer1/hacker-how-to)
 
 * [Codeberg](https://codeberg.org/hwpplayer1/hacker-how-to)
@@ -38,8 +36,6 @@ After this add GitLab ```git remote add gitlab git@gitlab.com:masscollabs/massco
 
 After this add sr.ht ```git remote add sr.ht git@git.sr.ht:~mertgor/hacker-how-to```
 
-After this add vern.cc ```git remote add vern.cc ssh://git@vern.cc:1813/hwpplayer1/hacker-how-to.git```
-
 After this add disroot ```git remote add disroot git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
 After this add codeberg ```git remote add codeberg git@codeberg.org:hwpplayer1/hacker-how-to.git```
@@ -57,8 +53,6 @@ They are :
 ```git remote set-url --add --push all git@gitlab.com:masscollabs/masscollaborationlabs/hacker-how-to.git```
 
 ```git remote set-url --add --push all git@git.sr.ht:~mertgor/hacker-how-to```
-
-```git remote set-url --add --push all ssh://git@vern.cc:1813/hwpplayer1/hacker-how-to.git```
 
 ```git remote set-url --add --push all git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
