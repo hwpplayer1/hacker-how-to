@@ -81,8 +81,6 @@ chmod +x git-sign-check.sh
 
 * https://codeberg.org/hwpplayer1/hacker-how-to
 
-* https://git.emin.software/hwpplayer1/hacker-how-to
-
 # License
 
 [CC BY-SA 4.0 or later](by-sa.markdown)

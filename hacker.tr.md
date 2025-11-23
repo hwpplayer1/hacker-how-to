@@ -92,8 +92,6 @@ mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)
 
 * https://codeberg.org/hwpplayer1/hacker-how-to
 
-* https://git.emin.software/hwpplayer1/hacker-how-to
-
 # Lisans
 
 [CC BY-SA 4.0 or later](https://github.com/hwpplayer1/hacker-how-to/blob/master/by-sa.markdown)

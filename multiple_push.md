@@ -16,8 +16,6 @@ For this repository it is :
 
 * [Codeberg](https://codeberg.org/hwpplayer1/hacker-how-to)
 
-* [Emin.Software](https://git.emin.software/hwpplayer1/hacker-how-to)
-
 We add SSH addresses but you may add the https addresses
 
 Here it is step by step 
@@ -38,9 +36,7 @@ After this add sr.ht ```git remote add sr.ht git@git.sr.ht:~mertgor/hacker-how-t
 
 After this add disroot ```git remote add disroot git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
-After this add codeberg ```git remote add codeberg git@codeberg.org:hwpplayer1/hacker-how-to.git```
-
-and after this add emin.software ```git remote add emin.software ssh://git@git.emin.software:3022/hwpplayer1/hacker-how-to.git```
+and after this add codeberg ```git remote add codeberg git@codeberg.org:hwpplayer1/hacker-how-to.git```
 
 After this we will execute ```git remote set-url --add --push all``` command for each git ssh address
 
@@ -57,8 +53,6 @@ They are :
 ```git remote set-url --add --push all git@git.disroot.org:hwpplayer1/hacker-how-to.git```
 
 ```git remote set-url --add --push all git@codeberg.org:hwpplayer1/hacker-how-to.git```
-
-```git remote set-url --addd --push all ssh://git@git.emin.software:3022/hwpplayer1/hacker-how-to.git```
 
 Then run ```git add .``` for your files ```git commit -S -m "Your Commit Message"``` and run ```git push -uv all``` to push your commits to remote.
 
