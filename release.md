@@ -58,7 +58,7 @@ git push -uv hwpplayer1 v10
 
 Then open your web browser and GitHub. See tag in the right panel. 
 
-![Release from Tag](img/copyleft/releasegithub.jpg)
+![Release from Tag](img/releasegithub.jpg)
 
 After this fill the form and publish your release.
 
