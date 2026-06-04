@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multiple Git repositories to push at once &mdash; Hacker How-to Guide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sign-off commits" href="signed_off.html" />
+    <link rel="prev" title="A Guide for Hackers who want to become a committer" href="README.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Hacker How-to Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">A Guide for Hackers who want to become a committer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#setting-ssh-keys">Setting SSH Keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#configuring-gpg-key">Configuring GPG Key</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#for-signing-commits-with-your-gpg-key">For signing Commits with your GPG Key</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#configuring-user-email-and-user-name-for-commits">Configuring User Email and User Name for commits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#conclusion">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#where-we-store-this-documentation">Where we store this documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#license">License</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Multiple Git repositories to push at once</a></li>
+<li class="toctree-l1"><a class="reference internal" href="signed_off.html">Sign-off commits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tag_sign.html">Signed Tags</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Hacker How-to Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Multiple Git repositories to push at once</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/multiple_push.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="multiple-git-repositories-to-push-at-once">
+<h1>Multiple Git repositories to push at once<a class="headerlink" href="#multiple-git-repositories-to-push-at-once" title="Link to this heading"></a></h1>
+<p>First we create remote repositories on the related forge web user
+interfaces.</p>
+<p>For this repository it is :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://source.masscollabs.xyz/masscollaborationlabs/hacker-how-to">Masscollabs
+Services</a></p></li>
+<li><p><a class="reference external" href="https://github.com/hwpplayer1/hacker-how-to">GitHub</a></p></li>
+<li><p><a class="reference external" href="https://gitlab.com/masscollabs/masscollaborationlabs/hacker-how-to">GitLab</a></p></li>
+<li><p><a class="reference external" href="https://git.sr.ht/~mertgor/hacker-how-to">sr.ht</a></p></li>
+<li><p><a class="reference external" href="https://git.disroot.org/hwpplayer1/hacker-how-to">Disroot</a></p></li>
+<li><p><a class="reference external" href="https://codeberg.org/hwpplayer1/hacker-how-to">Codeberg</a></p></li>
+</ul>
+<p>We add SSH addresses but you may add the https addresses</p>
+<p>Here it is step by step</p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">ssh://git&#64;source.masscollabs.xyz/masscollaborationlabs/hacker-how-to.git</span></code></p>
+<p>Then <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">hacker-howo-to</span></code></p>
+<p>After thıs change the <code class="docutils literal notranslate"><span class="pre">origin</span></code> with <code class="docutils literal notranslate"><span class="pre">masscollabs</span></code> and add
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">ssh://git&#64;source.masscollabs.xyz/masscollaborationlabs/hacker-how-to.git</span></code></p>
+<p>This will make the Masscollabs Source Forge lead for all address</p>
+<p>After this add GitHub
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">git&#64;github.com:hwpplayer1/hacker-how-to.git</span></code></p>
+<p>After this add GitLab
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span> <span class="pre">gitlab</span> <span class="pre">git&#64;gitlab.com:masscollabs/masscollaborationlabs/hacker-how-to.git</span></code></p>
+<p>After this add sr.ht
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span> <span class="pre">sr.ht</span> <span class="pre">git&#64;git.sr.ht:~mertgor/hacker-how-to</span></code></p>
+<p>After this add disroot
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span> <span class="pre">disroot</span> <span class="pre">git&#64;git.disroot.org:hwpplayer1/hacker-how-to.git</span></code></p>
+<p>and after this add codeberg
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span> <span class="pre">codeberg</span> <span class="pre">git&#64;codeberg.org:hwpplayer1/hacker-how-to.git</span></code></p>
+<p>After this we will execute <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span></code>
+command for each git ssh address</p>
+<p>They are :</p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">ssh://git&#64;source.masscollabs.xyz/masscollaborationlabs/hacker-how-to.git</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">git&#64;github.com:hwpplayer1/hacker-how-to.git</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">git&#64;gitlab.com:masscollabs/masscollaborationlabs/hacker-how-to.git</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">git&#64;git.sr.ht:~mertgor/hacker-how-to</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">git&#64;git.disroot.org:hwpplayer1/hacker-how-to.git</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">set-url</span> <span class="pre">--add</span> <span class="pre">--push</span> <span class="pre">all</span> <span class="pre">git&#64;codeberg.org:hwpplayer1/hacker-how-to.git</span></code></p>
+<p>Then run <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code> for your files
+<code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-S</span> <span class="pre">-m</span> <span class="pre">&quot;Your</span> <span class="pre">Commit</span> <span class="pre">Message&quot;</span></code> and run <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">-uv</span> <span class="pre">all</span></code>
+to push your commits to remote.</p>
+<p>Source :
+<a class="reference external" href="https://forum.pardus.org.tr/t/birden-fazla-git-reposuna-sahip-olmak/15381/3">https://forum.pardus.org.tr/t/birden-fazla-git-reposuna-sahip-olmak/15381/3</a></p>
+<p><strong>happy hacking!…</strong></p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="README.html" class="btn btn-neutral float-left" title="A Guide for Hackers who want to become a committer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="signed_off.html" class="btn btn-neutral float-right" title="Sign-off commits" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Mert Gör.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
