@@ -7,3 +7,8 @@ build:
 
 sphinx:
   configuration: conf.py
+
+# Sunucuya temayı yüklemesini söylüyoruz:
+python:
+  install:
+    - requirements: requirements.txt
