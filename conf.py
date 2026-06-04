@@ -26,5 +26,4 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-# Sphinx'e kaynak .rst dosyalarının 'source' klasöründe olduğunu bildiriyoruz
-source_suffix = '.rst'
+
