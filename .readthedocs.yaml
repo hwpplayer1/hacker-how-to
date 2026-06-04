@@ -7,5 +7,3 @@ build:
 
 sphinx:
   configuration: source/conf.py
-  # Sunucuya kaynak dosyaların source klasöründe olduğunu bildiriyoruz:
-  source_dir: source
