@@ -66,4 +66,4 @@ happy hacking !
 
 Mert Gör (a.k.a thejustprince, mertgor, hwpplayer1)
 
-[CC BY-SA 4.0 or later](by-sa.markdown)
+[CC BY-SA 4.0 or later](https://creativecommons.org/licenses/by-sa/4.0/)

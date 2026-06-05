@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A Guide for Hackers who want to become a committer &mdash; Hacker How-to Guide  documentation</title>
+  <title>Bir git tabanlı projede yazma iznine sahip olmak isteyen Hackerlar(Yazılımcılar) için Kılavuz &mdash; Hacker How-to Guide  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
 
@@ -18,9 +18,7 @@
       <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Multiple Git repositories to push at once" href="multiple_push.html" />
-    <link rel="prev" title="Hacker How-to Guide documentation" href="index.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,15 +41,15 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">A Guide for Hackers who want to become a committer</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#setting-ssh-keys">Setting SSH Keys</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#configuring-gpg-key">Configuring GPG Key</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#for-signing-commits-with-your-gpg-key">For signing Commits with your GPG Key</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#configuring-user-email-and-user-name-for-commits">Configuring User Email and User Name for commits</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#conclusion">Conclusion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#where-we-store-this-documentation">Where we store this documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#license">License</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">A Guide for Hackers who want to become a committer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#setting-ssh-keys">Setting SSH Keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#configuring-gpg-key">Configuring GPG Key</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#for-signing-commits-with-your-gpg-key">For signing Commits with your GPG Key</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#configuring-user-email-and-user-name-for-commits">Configuring User Email and User Name for commits</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#conclusion">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#where-we-store-this-documentation">Where we store this documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#license">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="multiple_push.html">Multiple Git repositories to push at once</a></li>
 <li class="toctree-l1"><a class="reference internal" href="signed_off.html">Sign-off commits</a></li>
 <li class="toctree-l1"><a class="reference internal" href="release.html">Release Notes</a></li>
@@ -72,9 +70,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">A Guide for Hackers who want to become a committer</li>
+      <li class="breadcrumb-item active">Bir git tabanlı projede yazma iznine sahip olmak isteyen Hackerlar(Yazılımcılar) için Kılavuz</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/README.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/hacker.tr.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -82,102 +80,103 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="a-guide-for-hackers-who-want-to-become-a-committer">
-<h1>A Guide for Hackers who want to become a committer<a class="headerlink" href="#a-guide-for-hackers-who-want-to-become-a-committer" title="Link to this heading"></a></h1>
+  <section id="bir-git-tabanli-projede-yazma-iznine-sahip-olmak-isteyen-hackerlar-yazilimcilar-icin-kilavuz">
+<h1>Bir git tabanlı projede yazma iznine sahip olmak isteyen Hackerlar(Yazılımcılar) için Kılavuz<a class="headerlink" href="#bir-git-tabanli-projede-yazma-iznine-sahip-olmak-isteyen-hackerlar-yazilimcilar-icin-kilavuz" title="Link to this heading"></a></h1>
 <figure class="align-default" id="id1">
 <img alt="Free Software" src="_images/freesoftware1024x768.png" />
 <figcaption>
 <p><span class="caption-text">Free Software</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>This repository includes the path to become a committer with any kind of
-git oriented workflow to push commits to any kind of forge.</p>
+<p>Bu makale, içerik üretme ile ilgili her türlü forge’ye(yazılım depo
+platformuna) içerikleri göndermek için her türlü git odaklı iş akışına
+sahip bir yazılımcı olmanın yolunu anlatır.</p>
 </section>
-<section id="setting-ssh-keys">
-<h1>Setting SSH Keys<a class="headerlink" href="#setting-ssh-keys" title="Link to this heading"></a></h1>
-<p>Please read :</p>
+<section id="ssh-anahtarlarini-ayarlama">
+<h1>SSH Anahtarlarını Ayarlama<a class="headerlink" href="#ssh-anahtarlarini-ayarlama" title="Link to this heading"></a></h1>
+<p>Lütfen aşağıdaki bağlantıları okuyunuz :</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent</a></p></li>
 <li><p><a class="reference external" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account</a></p></li>
 </ul>
 </section>
-<section id="configuring-gpg-key">
-<h1>Configuring GPG Key<a class="headerlink" href="#configuring-gpg-key" title="Link to this heading"></a></h1>
+<section id="gpg-anahtarini-yapilandirma">
+<h1>GPG Anahtarını Yapılandırma<a class="headerlink" href="#gpg-anahtarini-yapilandirma" title="Link to this heading"></a></h1>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key">https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key</a></p></li>
-<li><p>After generating GPG Key please run :</p></li>
+<li><p>GPG Anahtarını oluşturduktan sonra lütfen şu komutu çalıştırın:</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gpg</span> <span class="o">--</span><span class="nb">list</span><span class="o">-</span><span class="n">secret</span><span class="o">-</span><span class="n">keys</span> <span class="o">--</span><span class="n">keyid</span><span class="o">-</span><span class="nb">format</span><span class="o">=</span><span class="n">long</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>Then run this command but replace <code class="docutils literal notranslate"><span class="pre">3AA5C34371567BD2</span></code> with your GPG
-Key ID:</p></li>
+<li><p>Ardından bu komutu çalıştırın ancak <code class="docutils literal notranslate"><span class="pre">3AA5C34371567BD2</span></code>’yi GPG
+Anahtar Kimliğinizle değiştirin:</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gpg</span> <span class="o">--</span><span class="n">output</span> <span class="n">secret</span><span class="o">.</span><span class="n">key</span> <span class="o">--</span><span class="n">export</span><span class="o">-</span><span class="n">secret</span><span class="o">-</span><span class="n">keys</span> <span class="mi">3</span><span class="n">AA5C34371567BD2</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>Then run this command for Revocation Certificate but replace
-<code class="docutils literal notranslate"><span class="pre">3AA5C34371567BD2</span></code> with your GPG Key ID:</p></li>
+<li><p>Ardından İptal Sertifikası için bu komutu çalıştırın ancak
+3AA5C34371567BD2’yi GPG Anahtar Kimliğinizle değiştirin:</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gpg</span> <span class="o">--</span><span class="n">output</span> <span class="n">revoke</span><span class="o">.</span><span class="n">asc</span> <span class="o">--</span><span class="n">gen</span><span class="o">-</span><span class="n">revoke</span> <span class="mi">3</span><span class="n">AA5C34371567BD2</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>Then export your public key with this command but replace
-<code class="docutils literal notranslate"><span class="pre">3AA5C34371567BD2</span></code> with your GPG Key ID :</p></li>
+<li><p>Daha sonra bu komutla genel anahtarınızı dışa aktarın ancak
+<code class="docutils literal notranslate"><span class="pre">3AA5C34371567BD2</span></code>’yi GPG Anahtar Kimliğinizle değiştirin:</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gpg</span> <span class="o">--</span><span class="n">armor</span> <span class="o">--</span><span class="n">export</span> <span class="mi">3</span><span class="n">AA5C34371567BD2</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="n">AA5C34371567BD2</span><span class="o">.</span><span class="n">asc</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>publish to <a class="reference external" href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global
-Directory</a> ,
-import key , trust and sign with Thunderbird Email Client or any
-other client</p></li>
-<li><p>After this backup your secret.key and revoke.asc to an external disk
-and keep it safe.</p></li>
-<li><p>Then open your public key with a text editor and copy all text and
-add your Public Key to GitHub like told here :
+<li><p><a class="reference external" href="https://keyserver.pgp.com/vkd/GetWelcomeScreen.event">PGP Global
+Directory’de</a>
+yayınlayın, anahtarı içe aktarın, güvenin ve Thunderbird E-posta
+İstemcisi veya başka bir istemciyle imzalayın</p></li>
+<li><p>Bundan sonra secret.key ve revoke.asc dosyalarınızı harici bir diske
+yedekleyin ve güvende tutun.</p></li>
+<li><p>Ardından genel anahtarınızı bir metin düzenleyiciyle açın ve tüm
+metni kopyalayın ve Genel Anahtarınızı burada anlatıldığı gibi
+GitHub’a ekleyin:
 <a class="reference external" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account">https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account</a></p></li>
 </ul>
 </section>
-<section id="for-signing-commits-with-your-gpg-key">
-<h1>For signing Commits with your GPG Key<a class="headerlink" href="#for-signing-commits-with-your-gpg-key" title="Link to this heading"></a></h1>
-<p>Please read this :</p>
+<section id="yazdiginiz-icerikleri-gpg-anahtarinizla-imzalamak-icin">
+<h1>Yazdığınız içerikleri GPG Anahtarınızla imzalamak için<a class="headerlink" href="#yazdiginiz-icerikleri-gpg-anahtarinizla-imzalamak-icin" title="Link to this heading"></a></h1>
+<p>Lütfen aşağıdaki bağlantıları okuyunuz :</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits">https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits</a></p></li>
 <li><p><a class="reference external" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key">https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key</a></p></li>
 </ul>
-<p>To check :</p>
+<p>Kontrol için :</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="o">+</span><span class="n">x</span> <span class="n">git</span><span class="o">-</span><span class="n">sign</span><span class="o">-</span><span class="n">check</span><span class="o">.</span><span class="n">sh</span>
 <span class="o">./</span><span class="n">git</span><span class="o">-</span><span class="n">sign</span><span class="o">-</span><span class="n">check</span><span class="o">.</span><span class="n">sh</span>
 </pre></div>
 </div>
 </section>
-<section id="configuring-user-email-and-user-name-for-commits">
-<h1>Configuring User Email and User Name for commits<a class="headerlink" href="#configuring-user-email-and-user-name-for-commits" title="Link to this heading"></a></h1>
+<section id="kullanici-e-postasini-ve-kullanici-adini-commitler-icin-yapilandirma">
+<h1>Kullanıcı E-postasını ve Kullanıcı Adını commit’ler için yapılandırma<a class="headerlink" href="#kullanici-e-postasini-ve-kullanici-adini-commitler-icin-yapilandirma" title="Link to this heading"></a></h1>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git">https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git</a></p></li>
 <li><p><a class="reference external" href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address">https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address</a></p></li>
 </ul>
 </section>
-<section id="conclusion">
-<h1>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading"></a></h1>
+<section id="sonuc">
+<h1>Sonuç<a class="headerlink" href="#sonuc" title="Link to this heading"></a></h1>
 <ul class="simple">
-<li><p>We have generated SSH Key and added our public SSH Key to our GitHub
-account.</p></li>
-<li><p>We have generated GPG Key, exported secret key, exported revocation
-certificate, published our public key to a server in this example PGP
-Global Directory and then we moved our secret.key and revoke.asc to
-an external disk. Then we added our GPG key to GitHub account.</p></li>
-<li><p>For signing commit we configured our git account.</p></li>
+<li><p>SSH Key’i oluşturduk ve public SSH Key’imizi GitHub hesabımıza
+ekledik.</p></li>
+<li><p>Bu örnekte GPG Anahtarını oluşturduk, genel anahtarımızı bir sunucuya
+gönderdik ve ardından secret.key ve revoke.asc’mizi harici bir diske
+taşıdık. Daha sonra GPG genel anahtarımızı GitHub hesabına ekledik.</p></li>
+<li><p>Yazdığımız içeriği imzalamak için git hesabımızı yapılandırdık.</p></li>
 </ul>
-<p><strong>happy hacking!…</strong></p>
+<p>mutlu hacklemeler(başarılar ve başarıya ulaşmanız dileğiyle)</p>
 </section>
-<section id="where-we-store-this-documentation">
-<h1>Where we store this documentation<a class="headerlink" href="#where-we-store-this-documentation" title="Link to this heading"></a></h1>
+<section id="bu-belgeleri-nerede-sakliyoruz">
+<h1>Bu belgeleri nerede saklıyoruz ?<a class="headerlink" href="#bu-belgeleri-nerede-sakliyoruz" title="Link to this heading"></a></h1>
 <ul class="simple">
 <li><p><a class="reference external" href="https://source.masscollabs.xyz/masscollaborationlabs/hacker-how-to">https://source.masscollabs.xyz/masscollaborationlabs/hacker-how-to</a></p></li>
 <li><p><a class="reference external" href="https://github.com/hwpplayer1/hacker-how-to">https://github.com/hwpplayer1/hacker-how-to</a></p></li>
@@ -187,8 +186,8 @@ an external disk. Then we added our GPG key to GitHub account.</p></li>
 <li><p><a class="reference external" href="https://codeberg.org/hwpplayer1/hacker-how-to">https://codeberg.org/hwpplayer1/hacker-how-to</a></p></li>
 </ul>
 </section>
-<section id="license">
-<h1>License<a class="headerlink" href="#license" title="Link to this heading"></a></h1>
+<section id="lisans">
+<h1>Lisans<a class="headerlink" href="#lisans" title="Link to this heading"></a></h1>
 <p><a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 or
 later</a></p>
 </section>
@@ -196,10 +195,7 @@ later</a></p>
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Hacker How-to Guide documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="multiple_push.html" class="btn btn-neutral float-right" title="Multiple Git repositories to push at once" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 

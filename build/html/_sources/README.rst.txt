@@ -114,4 +114,5 @@ Where we store this documentation
 License
 =======
 
-`CC BY-SA 4.0 or later <by-sa.markdown>`__
+`CC BY-SA 4.0 or
+later <https://creativecommons.org/licenses/by-sa/4.0/>`__
