@@ -26,4 +26,10 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
+html_logo = 'img/hackerthankstoGOD.jpg'  # Logonuzun dosya adı ve yolu buraya gelmelidir
+
+html_theme_options = {
+    'logo_only': False,       # Menüde sadece logonun görünmesi ve sayfa başlığı yazısının kalkması için 'True' yapın
+    'display_version': False # Sürüm numarasını gizlemek için 'True' yerine 'False' kullanabilirsiniz
+}
 
