@@ -5,6 +5,10 @@ build:
   tools:
     python: "3.12"
 
+formats:
+  - pdf
+  - epub
+
 sphinx:
   configuration: conf.py
 
